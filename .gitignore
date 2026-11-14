@@ -1,0 +1,7 @@
+.DS_Store
+Thumbs.db
+~$*.xlsx
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+.env
