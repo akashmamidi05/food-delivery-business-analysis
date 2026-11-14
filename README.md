@@ -1,35 +1,38 @@
 # Food Delivery Business Performance Analysis
 
-A portfolio project to explore food-delivery order, customer, restaurant, and delivery data and develop business-focused insights.
+A portfolio project to analyze food-delivery orders, customers, restaurants, and delivery operations and develop business-focused insights.
 
-> **Project status:** Initial dataset and repository structure prepared. Excel analysis, SQL analysis, Python EDA, and the Power BI dashboard are planned work and will be added after implementation and validation. This repository does not yet represent a completed analysis.
+> **Project status: Starter repository published.** The repository contains the project scope, folder structure, progress tracker, and a small synthetic sample dataset. Excel analysis, SQL queries, Python EDA, and the Power BI dashboard have **not** been completed yet.
 
 ## Objectives
 
 - Understand order volume, order value, and revenue patterns.
 - Explore customer and restaurant performance.
 - Examine cancellations and delivery efficiency.
-- Build reproducible analysis using Excel, SQL Server, and Python.
-- Present validated findings in a Power BI dashboard and business recommendations.
+- Use Excel, SQL Server, Python, and Power BI for reproducible analysis.
+- Present validated findings and practical business recommendations.
 
-## Dataset
+## Sample dataset
 
-The included practice dataset is synthetic. It contains four related CSV tables:
+[Download the sample dataset ZIP](data/Food_Delivery_Sample_Dataset.zip).
 
-| File | Rows | Purpose |
-|---|---:|---|
-| `customers.csv` | 300 | Customer attributes |
-| `restaurants.csv` | 30 | Restaurant and cuisine attributes |
-| `orders.csv` | 1,200 | Order-level details and amounts |
-| `deliveries.csv` | 1,092 | Delivery timing and ratings |
+The archive contains linked sample rows from four tables, plus the project brief and data dictionary:
 
-The source workbook is available at `Excel/Food_Delivery_Analysis_Dataset.xlsx`. A project brief and data dictionary are in `data/raw/`.
+| Sample table | Rows |
+|---|---:|
+| Customers | 20 |
+| Restaurants | 14 |
+| Orders | 20 |
+| Deliveries | 19 |
+
+The complete synthetic practice data workbook and CSV bundle are available separately during project development. The small GitHub sample is for preview and does not replace the complete dataset.
 
 ## Repository structure
 
 ```text
 food-delivery-business-analysis/
-├── data/raw/                # Original synthetic CSV data and metadata
+├── data/
+│   └── Food_Delivery_Sample_Dataset.zip
 ├── Excel/                   # Workbook and future Excel analysis
 ├── SQL/                     # SQL Server scripts
 ├── Python/                  # Python EDA notebook and scripts
@@ -47,12 +50,12 @@ food-delivery-business-analysis/
 
 ## Data notes
 
-This is synthetic learning data, not production or customer data. The raw files are preserved as supplied. Missing values and other data-quality conditions should be inspected before analysis; do not assume missing values mean zero.
+All data is synthetic practice data, not production or customer data. Inspect missing values and other data-quality conditions before analysis. Do not assume missing values mean zero.
 
 ## Planned workflow
 
 1. Inspect and clean the data in Excel.
-2. Load the tables into SQL Server and validate relationships.
+2. Load tables into SQL Server and validate relationships.
 3. Answer business questions with SQL.
 4. Perform exploratory data analysis in Python.
 5. Build an interactive Power BI dashboard.
@@ -60,10 +63,10 @@ This is synthetic learning data, not production or customer data. The raw files 
 
 ## Current limitations
 
-- No business conclusions or KPI results have been validated yet.
+- No business conclusions or KPI results have been validated.
 - The Power BI dashboard has not been built.
-- SQL and Python analysis files are not yet implemented.
-- Dataset values are synthetic and should not be presented as real company performance.
+- SQL and Python analysis files have not yet been implemented.
+- The GitHub sample archive is only a preview subset; use the full source dataset for the actual analysis.
 
 ## Author
 
